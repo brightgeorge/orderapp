@@ -1,0 +1,15 @@
+vs code
+-----------
+git add .
+git commit -m "<mesaage>"
+git push origin main
+
+
+
+server
+-------
+cd orderapp
+git pull origin main
+sudo systemctl daemon-reload
+sudo service order restart
+sudo service nginx restart
